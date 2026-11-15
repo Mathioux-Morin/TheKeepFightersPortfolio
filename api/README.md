@@ -70,6 +70,19 @@ docker compose ps             # wait for the "healthy" status
 for f in db/init/*.sql; do psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f "$f" || break; done
 ```
 
+### Development seed data
+
+[`db/seed/`](../db/seed) fills a development database with fictitious content: four members (one with a hidden portfolio and no CV nor links), skills, experiences, projects (a draft, an ongoing one, a group one with a pending invitation) and their images. **Never run it in production**: it is not copied into the Docker image.
+
+From the root of the repository, once the database is `healthy`:
+
+```bash
+db/seed/seed.sh                              # Docker: runs in the db container
+DATABASE_URL=postgresql://... db/seed/seed.sh  # without Docker: needs psql
+```
+
+The script copies the demo files of `db/seed/media/` into `uploads/` (ignored by Git, `UPLOADS_DIR` to change it), then runs `dev_seed.sql` in one transaction. It can be run again: it creates no duplicates and keeps the rows changed by hand. Every seed member (`panda`, `mathioux`, `camille`, `hugo`) logs in with the password `demo-password`.
+
 ### `users`
 
 People allowed to log in. Accounts are not created through the API: they are added directly in the database.
