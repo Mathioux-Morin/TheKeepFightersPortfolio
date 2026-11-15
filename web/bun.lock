@@ -7,6 +7,7 @@
       "dependencies": {
         "@iconify-json/circle-flags": "~1.2.12",
         "@iconify-json/lucide": "~1.2.147",
+        "@iconify-json/simple-icons": "~1.2.102",
         "@nuxt/ui": "~4.12.0",
         "@nuxtjs/i18n": "~10.6.0",
         "nuxt": "~4.6.2",
@@ -214,6 +215,8 @@
     "@iconify-json/circle-flags": ["@iconify-json/circle-flags@1.2.12", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-TPuLJF7uDjqR2ZA7FldWEGz7gZijhnMG5K7B3nKKyJdGYU8KLHh7F4VcrFjUTJHG+ttGglYrHbw0GoIqCqoOyw=="],
 
     "@iconify-json/lucide": ["@iconify-json/lucide@1.2.147", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-7Qqa/joSBeUxihWsQJx5nKcqMWtV3YrH90Jldxcx4J9ciTLavRUlpexQwRTcx9dcb7CJpISfjZTj42zD/30sqA=="],
+
+    "@iconify-json/simple-icons": ["@iconify-json/simple-icons@1.2.102", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-IwbAj1ZI6LBy+qU7sVYxB1wgbSSIDKjY9I0BnnpjfIdlqfXoYnBb80UvYA0WkodUFWfQyL4AjaKMg48fqX8sIw=="],
 
     "@iconify/collections": ["@iconify/collections@1.0.756", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-Myq4OZLEeIyXqrrgHDxd5CnZZogEIVanGw6pwzcKaOKARobfiGaokZeVy0G/0iV8/AtUsNIsj8ETftt/K5B50w=="],
 

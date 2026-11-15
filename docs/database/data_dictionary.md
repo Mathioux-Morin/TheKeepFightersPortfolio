@@ -194,7 +194,7 @@ INSERT INTO link_kinds (kind, url_pattern, icon) VALUES
 >
 > ℹ️ The patterns mostly check the domain: a pattern too strict would reject valid URLs (a YouTube playlist, a LinkedIn company page). Changing a pattern does not recheck the existing links.
 >
-> ℹ️ Adding a network is an `INSERT`, without schema migration. The icons must exist in an installed Iconify collection (`@iconify-json/simple-icons` for the brands, `lucide` is already installed).
+> ℹ️ Adding a network is an `INSERT`, without schema migration. The icons must exist in an Iconify collection installed in `web/`: `@iconify-json/simple-icons` for the brands, `@iconify-json/lucide` for the others.
 
 ---
 
