@@ -14,17 +14,17 @@
     "unknown": "Unknown user"
   },
   "home": {
-    "description": "Portfolios of the PandaDev team."
+    "description": "Portfolios of the TheKeepFighters team."
   },
   "projects": {
-    "description": "Projects of the PandaDev team."
+    "description": "Projects of the TheKeepFighters team."
   },
   "about": {
-    "description": "About the PandaDev team."
+    "description": "About the TheKeepFighters team."
   },
   "login": {
     "title": "Log in",
-    "description": "Access your PandaDev area",
+    "description": "Access your TheKeepFighters area",
     "submit": "Log in",
     "failed": "Login failed",
     "fields": {

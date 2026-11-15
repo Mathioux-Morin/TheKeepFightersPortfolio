@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    // The PandaDev palette (Radix) is applied in assets/css/main.css, which overrides the
+    // The TheKeepFighters palette (Radix) is applied in assets/css/main.css, which overrides the
     // Nuxt UI design tokens (--ui-primary, --ui-bg, --ui-text…). These Tailwind scales are only
     // a fallback for the few classes that use a numbered shade: closest ones to the palette.
     colors: {

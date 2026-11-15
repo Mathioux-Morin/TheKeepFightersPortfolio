@@ -1,6 +1,6 @@
 # Specifications
 
-## _PandaDev Portfolio_
+## _TheKeepFighters Portfolio_
 
 > 🇫🇷 Version française : [specifications_fr.md](specifications_fr.md)
 
@@ -15,7 +15,7 @@
 
 ### 1.1 Project overview
 
-PandaDev is a team of developers. The project is a website that brings several portfolios together: each member presents their profile, skills, background and projects there, and the projects built together are shown once, with the role of each member. The website is not limited to a fixed number of portfolios (see [3.5 Adding a portfolio](#35-adding-a-portfolio)).
+TheKeepFighters is a team of developers. The project is a website that brings several portfolios together: each member presents their profile, skills, background and projects there, and the projects built together are shown once, with the role of each member. The website is not limited to a fixed number of portfolios (see [3.5 Adding a portfolio](#35-adding-a-portfolio)).
 
 ### 1.2 Roles in the project
 
@@ -58,7 +58,7 @@ Three components, versioned in the same repository:
 | Authentication | Login and password (bcrypt, JWT token), sealed Nuxt session, logout                                                                                             |
 | Private area   | "My area" page restricted to logged-in members, still empty                                                                                                     |
 | Translation    | Interface fully translated into French (default locale) and English                                                                                             |
-| Look and feel  | PandaDev color palette (Radix), light / dark mode, responsive header                                                                                            |
+| Look and feel  | TheKeepFighters color palette (Radix), light / dark mode, responsive header                                                                                            |
 | Public pages   | Home, Projects and About pages created, without content                                                                                                         |
 | Portfolios     | One page per member, with the structure of its own layout (layout, header, hero) and shared components (projects, background, technologies, links), still empty |
 | Database       | Every table of the schema created ([schema_mld.puml](../database/schema_mld.puml), [data dictionary](../database/data_dictionary.md))                           |
@@ -73,7 +73,7 @@ Three components, versioned in the same repository:
 - Choose the host between OVHcloud and Infomaniak, needed to go live and for the "Legal notice" page (see [5](#5-constraints-and-limits));
 - Choose the domain name and set up SPF and DKIM, so that the emails sent by the website are not flagged as spam;
 - Set up the sending of the contact form emails;
-- Make 2D renders of the PandaDev mascot, from a 3D model, to illustrate the website without making the pages heavier.
+- Make 2D renders of the TheKeepFighters mascot, from a 3D model, to illustrate the website without making the pages heavier.
 
 ---
 
@@ -216,13 +216,13 @@ Browses the portfolios and the projects.
 | Technical level | Varies: the website must stay readable without technical knowledge                       |
 | Expectations    | Know who did what, see real work (screenshots, code, demo), find a way to get in touch   |
 
-### The PandaDev member
+### The TheKeepFighters member
 
 Manages their portfolio and projects from the private area.
 
 | Attribute       | Detail                                                                                    |
 |-----------------|-------------------------------------------------------------------------------------------|
-| Profile         | Developer, member of the PandaDev team                                                    |
+| Profile         | Developer, member of the TheKeepFighters team                                                    |
 | Main goal       | Present their skills and projects, keep their portfolio up to date                        |
 | Behavior        | Logs in from time to time to add a project or a technology, or update their "Now" section |
 | Technical level | Developer, but entering content must stay quick and never require touching the database   |
@@ -343,7 +343,7 @@ Acceptance criteria:
 
 ### UC-06 — View the About page
 
-- **US-06.1** — As a visitor, I want to read a presentation of the PandaDev team, so that I understand what brings its members together and how they work.
+- **US-06.1** — As a visitor, I want to read a presentation of the TheKeepFighters team, so that I understand what brings its members together and how they work.
 
 Acceptance criteria:
 

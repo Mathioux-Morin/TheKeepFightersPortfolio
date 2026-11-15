@@ -1,6 +1,6 @@
 # Copyright (c) 2026 Mathieu MORIN, Mathias GARAIOS
 # SPDX-License-Identifier: MIT
-"""Main entry point of the PandaDev portfolio API.
+"""Main entry point of the TheKeepFighters portfolio API.
 
 Creates the FastAPI application and registers the routers:
 - Authentication: JWT token generation
@@ -37,7 +37,7 @@ Sauf indication contraire, les types de données utilisés dans cette API sont :
 """
 
 app = FastAPI(
-    title="API PandaDev Portfolio",
+    title="API TheKeepFighters Portfolio",
     summary="API de gestion des données de chaque personne du portfolio.",
     description=description,
     version="0.1.0",

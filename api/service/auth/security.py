@@ -18,7 +18,7 @@ from service.settings.auth import get_jwt_settings
 
 logger = logging.getLogger(__name__)
 
-ISSUER = "pandadev-portfolio"
+ISSUER = "thekeepfighters-portfolio"
 
 # bcrypt only uses the first 72 bytes of the password. pgcrypto truncates silently,
 # whereas the Python library raises an error: truncate the same way.

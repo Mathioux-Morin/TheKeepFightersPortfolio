@@ -1,6 +1,6 @@
 # Data dictionary
 
-## _PandaDev Portfolio — PostgreSQL database_
+## _TheKeepFighters Portfolio — PostgreSQL database_
 
 Companion of the diagram [`schema_mld.puml`](schema_mld.puml): both files must be updated together. Every table is created by [`db/init/`](../../db/init): tables, domains and indexes in `01_tables.sql`, trigger functions in `02_functions.sql`, triggers in `03_triggers.sql`, reference data in `04_data.sql`.
 
@@ -12,7 +12,7 @@ Companion of the diagram [`schema_mld.puml`](schema_mld.puml): both files must b
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `L10n`               | Domain `l10n` over `jsonb`, one text per locale: `{"fr": "...", "en": "..."}`. French is required, English is optional and the website falls back to French when it is missing |
 | `IDENTITY`           | `integer GENERATED ALWAYS AS IDENTITY`, same as `users.idUser`                                                                                                                 |
-| `slug`               | Domain `slug` over `text`, `CHECK (VALUE ~ '^[a-z0-9]+(-[a-z0-9]+)*$')`, e.g. `pandadev-portfolio`                                                                             |
+| `slug`               | Domain `slug` over `text`, `CHECK (VALUE ~ '^[a-z0-9]+(-[a-z0-9]+)*$')`, e.g. `thekeepfighters-portfolio`                                                                             |
 | `position`           | Display order, ascending, default `0`                                                                                                                                          |
 | Enumerated `text`    | Stored in English, `CHECK (col IN (...))`. The website translates the value with `@nuxtjs/i18n`                                                                                |
 | URLs                 | Validated by the API (Pydantic `HttpUrl`), stored as `text`                                                                                                                    |
@@ -273,7 +273,7 @@ Projects shown on the portfolio.
 | Field          | Type          | Constraint                                       | Required | Description                                                    |
 |----------------|---------------|--------------------------------------------------|----------|----------------------------------------------------------------|
 | `idProject`    | `integer`     | PK, IDENTITY                                     | ✅       | Unique identifier                                              |
-| `slug`         | `text`        | UNIQUE, slug format                              | ✅       | Public URL of the project, e.g. `/projects/pandadev-portfolio` |
+| `slug`         | `text`        | UNIQUE, slug format                              | ✅       | Public URL of the project, e.g. `/projects/thekeepfighters-portfolio` |
 | `title`        | `L10n`        | —                                                | ✅       | Project name                                                   |
 | `summary`      | `L10n`        | —                                                | ✅       | One or two sentences shown on the project cards                |
 | `content`      | `L10n`        | —                                                | ❌       | Full presentation (Markdown) on the project page               |

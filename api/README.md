@@ -1,6 +1,6 @@
-# PandaDev Portfolio — REST API
+# TheKeepFighters Portfolio — REST API
 
-FastAPI REST API of the PandaDev portfolio. It manages the data of each person shown in the portfolio and authenticates people with a login and password (JWT token).
+FastAPI REST API of the TheKeepFighters portfolio. It manages the data of each person shown in the portfolio and authenticates people with a login and password (JWT token).
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ FastAPI REST API of the PandaDev portfolio. It manages the data of each person s
 
     ```bash
     git clone <repository_url>
-    cd PandaDevPortfolio/api
+    cd TheKeepFightersPortfolio/api
     ```
 
 2. Install the dependencies:
@@ -202,7 +202,7 @@ The token only carries the user id:
 | Claim | Description                  |
 |-------|------------------------------|
 | `sub` | User id (`users.idUser`)     |
-| `iss` | Issuer: `pandadev-portfolio` |
+| `iss` | Issuer: `thekeepfighters-portfolio` |
 | `iat` | Issued at                    |
 | `exp` | Expiration date              |
 

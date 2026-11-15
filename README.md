@@ -1,6 +1,6 @@
-# PandaDevPortfolio
+# TheKeepFightersPortfolio
 
-PandaDev portfolio: a REST API that manages the data of each person shown, a website to display it, and a PostgreSQL database.
+TheKeepFighters portfolio: a REST API that manages the data of each person shown, a website to display it, and a PostgreSQL database.
 
 ## Repository layout
 

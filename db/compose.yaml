@@ -1,9 +1,9 @@
-name: pandadev-portfolio
+name: thekeepfighters-portfolio
 
 services:
   db:
     build: .
-    image: pandadev-portfolio-db:18.6
+    image: thekeepfighters-portfolio-db:18.6
     env_file: .env
     ports:
       # Only reachable from the host machine.

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'PandaDev Portfolio',
+      title: 'TheKeepFighters Portfolio',
       // <html lang> follows the active locale: set in app.vue
       meta: [
         { charset: 'utf-8' },
