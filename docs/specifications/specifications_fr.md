@@ -1,6 +1,6 @@
 # Cahier des charges
 
-## _PandaDev Portfolio_
+## _TheKeepFighters Portfolio_
 
 > 🇬🇧 English version: [specifications_en.md](specifications_en.md)
 
@@ -15,7 +15,7 @@
 
 ### 1.1 Présentation du projet
 
-PandaDev est une équipe de développeurs. Le projet consiste à créer un site qui réunit plusieurs portfolios : chaque membre y présente son profil, ses compétences, son parcours et ses projets, et les projets réalisés ensemble sont présentés une seule fois, avec le rôle de chacun. Le site n'est pas limité à un nombre fixe de portfolios (voir [3.5 Ajout d'un portfolio](#35-ajout-dun-portfolio)).
+TheKeepFighters est une équipe de développeurs. Le projet consiste à créer un site qui réunit plusieurs portfolios : chaque membre y présente son profil, ses compétences, son parcours et ses projets, et les projets réalisés ensemble sont présentés une seule fois, avec le rôle de chacun. Le site n'est pas limité à un nombre fixe de portfolios (voir [3.5 Ajout d'un portfolio](#35-ajout-dun-portfolio)).
 
 ### 1.2 Rôles dans le projet
 
@@ -58,7 +58,7 @@ Trois composants, versionnés dans le même dépôt :
 | Authentification | Connexion par login et mot de passe (bcrypt, jeton JWT), session Nuxt chiffrée, déconnexion                                                                          |
 | Espace privé     | Page « Mon espace » réservée aux membres connectés, encore vide                                                                                                      |
 | Traduction       | Interface entièrement traduite en français (langue par défaut) et en anglais                                                                                         |
-| Apparence        | Palette de couleurs PandaDev (Radix), mode clair / sombre, en-tête responsive                                                                                        |
+| Apparence        | Palette de couleurs TheKeepFighters (Radix), mode clair / sombre, en-tête responsive                                                                                        |
 | Pages publiques  | Accueil, Projets et À propos créées, sans contenu                                                                                                                    |
 | Portfolios       | Une page par membre, avec la structure de sa mise en page propre (layout, en-tête, hero) et des composants communs (projets, parcours, technos, liens), encore vides |
 | Base de données  | Table `users` créée ; schéma complet proposé ([schema_mld.puml](../database/schema_mld.puml), [dictionnaire de données](../database/data_dictionary.md))             |
@@ -73,7 +73,7 @@ Trois composants, versionnés dans le même dépôt :
 - Choisir l'hébergeur entre OVHcloud et Infomaniak, nécessaire à la mise en ligne et à la page « Mentions légales » (voir [5](#5-contraintes-et-limites)) ;
 - Choisir le nom de domaine et configurer SPF et DKIM, pour que les e-mails envoyés par le site ne soient pas classés en spam ;
 - Mettre en place l'envoi des e-mails du formulaire de contact ;
-- Réaliser des rendus 2D de la mascotte PandaDev, à partir d'un modèle 3D, pour illustrer le site sans alourdir les pages.
+- Réaliser des rendus 2D de la mascotte TheKeepFighters, à partir d'un modèle 3D, pour illustrer le site sans alourdir les pages.
 
 ---
 
@@ -216,13 +216,13 @@ Consulte les portfolios et les projets.
 | Niveau technique   | Variable : le site doit rester lisible sans connaissances techniques                               |
 | Attentes           | Savoir qui a fait quoi, voir du concret (captures, code, démo), trouver un moyen de contact        |
 
-### Le membre PandaDev
+### Le membre TheKeepFighters
 
 Gère son portfolio et ses projets depuis l'espace privé.
 
 | Attribut           | Détail                                                                                                  |
 |--------------------|---------------------------------------------------------------------------------------------------------|
-| Profil             | Développeur, membre de l'équipe PandaDev                                                                |
+| Profil             | Développeur, membre de l'équipe TheKeepFighters                                                                |
 | Objectif principal | Présenter ses compétences et ses projets, garder son portfolio à jour                                   |
 | Comportement       | Se connecte de temps en temps pour ajouter un projet ou une techno, ou mettre à jour sa section « Now » |
 | Niveau technique   | Développeur, mais la saisie doit rester rapide et ne jamais demander d'intervenir dans la base          |
@@ -343,7 +343,7 @@ Critères d'acceptation :
 
 ### UC-06 — Consulter la page À propos
 
-- **US-06.1** — En tant que visiteur, je veux lire une présentation de l'équipe PandaDev, afin de comprendre ce qui réunit ses membres et comment ils travaillent.
+- **US-06.1** — En tant que visiteur, je veux lire une présentation de l'équipe TheKeepFighters, afin de comprendre ce qui réunit ses membres et comment ils travaillent.
 
 Critères d'acceptation :
 

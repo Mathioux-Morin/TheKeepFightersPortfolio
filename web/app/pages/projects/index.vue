@@ -4,7 +4,7 @@
 <template>
   <UContainer>
     <UPageHero
-      title="PandaDev Projects"
+      title="TheKeepFighters Projects"
       :description="t('projects.description')"
     />
   </UContainer>

@@ -6,7 +6,7 @@
 -->
 <template>
   <UHeader
-    title="PandaDev"
+    title="TheKeepFighters"
     :to="localePath('/')"
     mode="slideover"
     toggle-side="left"
@@ -19,11 +19,10 @@
   >
   <template #title>
     <div class="flex item-center">
-      <span class="font-bold text-lg">PandaDev</span>
+      <span class="font-bold text-lg">TheKeepFighters</span>
 
-      <img src="assets/logo/pandarouge.svg" alt="logo PandaDev" class="h-8 w-auto light:hidden"/>
+      <img src="assets/logo/TKF_LOGO_RED.png" alt="logo TheKeepFighters" class="h-8 w-auto light:hidden"/>
 
-      <img src="assets/logo/pandableu.svg" alt="logo PandaDev" class="h-8 w-auto dark:hidden"/>
     </div>
   </template>
     <UNavigationMenu

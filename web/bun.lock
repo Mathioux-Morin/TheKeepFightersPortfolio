@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "pandadev-portfolio",
+      "name": "thekeepfighters-portfolio",
       "dependencies": {
         "@iconify-json/circle-flags": "~1.2.12",
         "@iconify-json/lucide": "~1.2.147",

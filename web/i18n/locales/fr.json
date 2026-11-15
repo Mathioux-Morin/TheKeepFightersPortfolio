@@ -14,17 +14,17 @@
     "unknown": "Utilisateur inconnu"
   },
   "home": {
-    "description": "Les portfolios de l'équipe PandaDev."
+    "description": "Les portfolios de l'équipe TheKeepFighters."
   },
   "projects": {
-    "description": "Les projets de l'équipe PandaDev."
+    "description": "Les projets de l'équipe TheKeepFighters."
   },
   "about": {
-    "description": "À propos de l'équipe PandaDev."
+    "description": "À propos de l'équipe TheKeepFighters."
   },
   "login": {
     "title": "Connexion",
-    "description": "Accédez à votre espace PandaDev",
+    "description": "Accédez à votre espace TheKeepFighters",
     "submit": "Se connecter",
     "failed": "Connexion impossible",
     "fields": {

@@ -1,7 +1,7 @@
 [project]
-name = "API_PandaDev_Portfolio"
+name = "API_TheKeepFighters_Portfolio"
 version = "0.1.0"
-description = "PandaDev portfolio API: manages the data of each person."
+description = "TheKeepFighters portfolio API: manages the data of each person."
 readme = "README.md"
 requires-python = ">=3.15"
 dependencies = [
