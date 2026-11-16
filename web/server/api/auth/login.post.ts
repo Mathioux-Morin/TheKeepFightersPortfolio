@@ -24,10 +24,10 @@ export default defineEventHandler(async (event) => {
     })
   } catch (error) {
     // `data.code` is translated by the login page (i18n/locales/*.json → login.errors)
-    if ((error as { statusCode?: number }).statusCode === 401) {
-      throw createError({ statusCode: 401, statusMessage: 'Invalid credentials', data: { code: 'invalid_credentials' } })
+    if ((error as { status?: number }).status === 401) {
+      throw createError({ status: 401, statusText: 'Invalid credentials', data: { code: 'invalid_credentials' } })
     }
-    throw createError({ statusCode: 502, statusMessage: 'API unavailable', data: { code: 'api_unavailable' } })
+    throw createError({ status: 502, statusText: 'API unavailable', data: { code: 'api_unavailable' } })
   }
 
   // The JWT stays in the `secure` part of the session: it is never exposed to the browser

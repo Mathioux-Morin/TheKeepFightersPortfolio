@@ -52,8 +52,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // FastAPI URL, overridden by NUXT_API_URL
     apiUrl: 'http://127.0.0.1:8000',
+    // Sealed with a secret derived from the Nuxt appSecret (NUXT_APP_SECRET)
     session: {
-      password: process.env.NUXT_SESSION_PASSWORD || '',
       cookie: {
         sameSite: 'lax',
         secure: process.env.NODE_ENV === 'production'

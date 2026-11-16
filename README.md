@@ -35,7 +35,7 @@ Requirements: [uv](https://docs.astral.sh/uv/), [Bun](https://bun.sh/) and Docke
 
     The Swagger documentation is available at: `http://127.0.0.1:8000/docs`
 
-3. Start the website (fill in `NUXT_SESSION_PASSWORD` in `web/.env`):
+3. Start the website (`NUXT_APP_SECRET` in `web/.env` is optional in development, required in production):
 
     ```bash
     cd web
